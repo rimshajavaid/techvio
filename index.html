@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techvio - IT Solutions and Business Services</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <!-- Fancy Box -->
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
+</head>
+
+<body>
+    <section class="main-section">
+        <!-- Navbar -->
+        <div class="navbar-container" id="navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid pt-3">
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                        aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="toggle">
+                            <div class="bars" id="bar1"></div>
+                            <div class="bars" id="bar2"></div>
+                            <div class="bars" id="bar3"></div>
+                        </div>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="px-3">
+                            <button class="btn-primary bg-white">Get Support</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel"><img src="assets/images/logo-black.png" alt=""></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <!-- Hero -->
+            <section class="bsb-hero-2 px-3 hero-sec" id="home">
+                <div class="container overflow-hidden">
+                    <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
+                        <div class="col-12 col-lg-6 order-1 order-lg-0 hero-content">
+                            <h2 class="hero-title">IT Solutions & Business Services Company</h2>
+                            <p class="hero-subtitle">
+                                We transform businesses across a wide range of major sectors with powerful and adaptable
+                                digital
+                                solutions that satisfy the needs of today's dynamic market.
+                            </p>
+                            <div>
+                                <button type="button" class="btn-primary bg-white"><span>Contact Us</span></button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 text-center">
+                            <img class="img-fluid hero-image" loading="lazy" src="assets/images/home-font.png"
+                                alt="IT Solutions & Business Services Company">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-img">
+                        <img src="assets/images/aboutus.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <span>About Our Company</span>
+                    <h1 class="mb-3">Elevating Businesses Through Digital Solutions</h1>
+                    <p>
+                        Our approach combines cutting-edge technology with deep industry expertise to deliver solutions
+                        that enhance operational efficiency and drive innovation. Our
+                        solutions are tailored to address the challenges and opportunities faced by
+                        modern enterprises, ensuring they remain competitive and agile in a fast-paced digital world.
+                    </p>
+                    <button class="btn-primary"><a href="#">Learn More</a></button>
+                </div>
+            </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service-section" id="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span>What We Offer</span>
+                <h1>Our Services</h1>
+            </div>
+            <div class="row d-flex flex-wrap">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-regular fa-file-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Building robust and dynamic websites to ensure seamless functionality and an optimal user
+                            experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>
+                            Creating custom, innovative, and scalable mobile applications tailored to meet the unique
+                            needs of businesses and users.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                        <h3>Graphics Designing</h3>
+                        <p>
+                            Transforming ideas into stunning visuals, we craft designs that captivate, communicate, and
+                            leave a lasting impact.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-searchengin"></i>
+                        </div>
+                        <h3>SEO Services</h3>
+                        <p>
+                            Boosting your online visibility with targeted SEO strategies that drive traffic, improve
+                            rankings, and grow your business.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                        </div>
+                        <h3>Website Design</h3>
+                        <p>
+                            Creating visually stunning and user-friendly websites that not only capture attention but
+                            also deliver seamless experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3>Networking Services</h3>
+                        <p>
+                            Connecting your business with reliable, secure, and scalable networking solutions to keep
+                            your operations running smoothly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-width text-center">
+                    <h1>Let's craft your next great app!</h1>
+                    <p>Are you seeking a distinctive software solution tailored to your business? Rest assured, we
+                        possess
+                        the expertise to assist you!</p>
+                    <button class="btn-primary"><a href="#">Get in Touch</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <span>Portfolio</span>
+                    <h2>Latest Projects</h2>
+                </div>
+            </div>
+            <div class="portfolio-menu mt-2 mb-4">
+                <nav class="controls">
+                    <button type="button" class="control outline" data-filter="all">All</button>
+                    <button type="button" class="control outline" data-filter=".web">Web Design</button>
+                    <button type="button" class="control outline" data-filter=".dev">Development</button>
+                    <button type="button" class="control outline" data-filter=".wp">WordPress</button>
+                </nav>
+            </div>
+            <div class="row portfolio-item justify-content-center">
+
+                <div class="mix web col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?auto=format&fit=crop&w=870&q=80"
+                        alt="Project 1" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project1" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mix dev col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1562813733-b31f71025d54?auto=format&fit=crop&w=869&q=80"
+                        alt="Project 2" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project2" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mix wp col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?auto=format&fit=crop&w=870&q=80"
+                        alt="Project 3" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project3" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mix web col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=870&q=80"
+                        alt="Project 4" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project4" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mix dev col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?auto=format&fit=crop&w=870&q=80"
+                        alt="Project 5" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project5" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mix wp col-md-4 col-sm-6 col-12 pd project-box">
+                    <img src="https://images.unsplash.com/photo-1581472723648-909f4851d4ae?auto=format&fit=crop&w=870&q=80"
+                        alt="Project 6" class="project-image">
+                    <div class="overlay">
+                        <a href="https://example.com/project6" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Learn More -->
+    <section class="learn-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img src="assets/images/learn.jpg" alt="" width="100%">
+                </div>
+                <div class="col-lg-6 col-12 learn-content">
+                    <span>Learn More About Us</span>
+                    <h1>Inspiring Success in Every Business Venture</h1>
+                    <p>From robust development to seamless IT infrastructure management, our expert team is
+                        dedicated to empowering your digital transformation.</p>
+                    <div class="skill-card">
+                        <div class="body">
+                            <div class="skill">
+                                <div class="skill-details d-flex justify-content-between">
+                                    <div class="skill-name html">IT Consulting</div>
+                                    <div class="skill-percent-number">90%</div>
+                                </div>
+                                <div class="skill-level">
+                                    <div style="width: 90%" class="skill-percent"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-details d-flex justify-content-between">
+                                    <div class="skill-name html">Tailored Solutions</div>
+                                    <div class="skill-percent-number">80%</div>
+                                </div>
+                                <div class="skill-level">
+                                    <div style="width: 80%" class="skill-percent"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-details d-flex justify-content-between">
+                                    <div class="skill-name html">Managed Services</div>
+                                    <div class="skill-percent-number">85%</div>
+                                </div>
+                                <div class="skill-level">
+                                    <div style="width: 85%" class="skill-percent"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process -->
+    <section class="working-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <span>How We Work</span>
+                    <h1>Working Process</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 1st -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="work-card">
+                        <p class="step-icon"><i class="fa-solid fa-chart-pie"></i></p>
+                        <p class="h1">Planning and Analysis</p>
+                        <p class="p">
+                            In the initial stages of project development, meticulous planning and comprehensive analysis
+                            form the foundation for the success.
+                        </p>
+                    </div>
+                </div>
+                <!-- 2nd -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="work-card">
+                        <p class="step-icon"><i class="fa-solid fa-code"></i></p>
+                        <p class="h1">Design and Development</p>
+                        <p class="p">
+                            Once first phase is complete, the focus shifts to the creative process of design and the
+                            technical aspects of development. </p>
+                    </div>
+                </div>
+                <!-- 3rd -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="work-card">
+                        <p class="step-icon"><i class="fa-solid fa-file-lines"></i></p>
+                        <p class="h1">Implementation and Testing</p>
+                        <p class="p">
+                            The implementation phase is where coding takes center stage. Skilled developers translate
+                            design
+                            specifications into the actual code.
+                        </p>
+                    </div>
+                </div>
+                <!-- 4th -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="work-card">
+                        <p class="step-icon"><i class="fa-solid fa-cloud-arrow-up"></i></p>
+                        <p class="h1">Project Delivery</p>
+                        <p class="p">
+                            The peak of the development process leads to project delivery. Upon successful testing and
+                            client
+                            approval, the software is deployed for operational use.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="heading text-center">
+                <p>Our Team</p>
+                <h2>Expert Team Members</h2>
+            </div>
+            <div class="row">
+                <!-- 1st Member -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="assets/images/team-one.jpg" alt="" />
+                                <div class="team-overlay">
+                                    <div class="team-details">
+                                        <div class="socials mt-20">
+                                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">John Smith</h6>
+                            <span>Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd Member -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="assets/images/team-two.jpg" alt="" />
+                                <div class="team-overlay">
+                                    <div class="team-details">
+                                        <div class="socials mt-20">
+                                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Emma Halton</h6>
+                            <span>Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd Member -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="assets/images/team-three.jpg" alt="" />
+                                <div class="team-overlay">
+                                    <div class="team-details">
+                                        <div class="socials mt-20">
+                                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Locas Cruis</h6>
+                            <span>Programmer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th Member -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="assets/images/team-four.jpg" alt="" />
+                                <div class="team-overlay">
+                                    <div class="team-details">
+                                        <div class="socials mt-20">
+                                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Helena Shawf</h6>
+                            <span>Cheif Executer</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <span>Pricing</span>
+                    <h1>Our Pricing Plans</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="benefit">
+                        <h2>Basic</h2>
+                        <div class="price">
+                            $15
+                            <p>Per Month</p>
+                        </div>
+                        <ul>
+                            <li>Custom Software Solutions</li>
+                            <li>Strategic IT Consulting</li>
+                            <li>Cross-Platform Development</li>
+                            <li class="outlined-text">24/7 IT Support</li>
+                            <li class="outlined-text">Quality Assurance and Testing</li>
+                            <li class="outlined-text">Support and Maintenance</li>
+                        </ul>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 premium">
+                    <div class="benefit">
+                        <h2>Premium</h2>
+                        <div class="recommend-txt">Recommended</div>
+                        <div class="price">$35
+                            <p>Per Month</p>
+                        </div>
+                        <ul>
+                            <li>Custom Software Solutions</li>
+                            <li>Strategic IT Consulting</li>
+                            <li>Cross-Platform Development</li>
+                            <li>24/7 IT Support</li>
+                            <li class="outlined-text">Quality Assurance and Testing</li>
+                            <li class="outlined-text">Support and Maintenance</li>
+                        </ul>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="benefit">
+                        <h2>Ultimate</h2>
+                        <div class="price">$49
+                            <p>Per Month</p>
+                        </div>
+                        <ul>
+                            <li>Custom Software Solutions</li>
+                            <li>Strategic IT Consulting</li>
+                            <li>Cross-Platform Development</li>
+                            <li>24/7 IT Support</li>
+                            <li>Quality Assurance and Testing</li>
+                            <li>Support and Maintenance</li>
+                        </ul>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hire Section -->
+    <section class="hire-section" id="contact">
+        <div class="container">
+            <div class="hire-content text-center">
+                <h6 class="subtitle">Want to work with us?</h6>
+                <h2>Elevate Your Business with Cutting-Edge IT Solutions</h2>
+                <p>
+                    Offering a wide range of tailored IT solutions and business services that empower organizations to
+                    streamline processes, boost productivity, and achieve long-term success in a rapidly evolving
+                    digital landscape.
+                </p>
+                <div class="default-btn">
+                    <button class="btn-primary"><a href="">Contact Us</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-center text-width-large">
+                    <h2>Get In Touch</h2>
+                    <p>For any queries or assistance, just fill in the contact form. We're here to help you and will
+                        reply to your
+                        message as soon as possible.</p>
+                </div>
+            </div>
+            <form action="/" class="mb-4 mb-lg-0">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6 col-12 form-group">
+                        <input type="text" name="name" id="name" required="" class="input" placeholder="Name">
+                    </div>
+                    <div class="col-md-6 col-12 form-group">
+                        <input type="email" name="email" id="email" required="" class="input" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6 col-12 form-group">
+                        <input type="text" name="phone" id="phone" required="" class="input" placeholder="Phone">
+                    </div>
+                    <div class="col-md-6 col-12 form-group">
+                        <input type="subject" name="subject" id="subject" required="" class="input"
+                            placeholder="Subject">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Type Message"></textarea>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Subscribe to our newsletter</h1>
+                    <p>Subscribe for the latest updates, content and exciting news delivered right to your inbox.</p>
+                    <form action="#">
+                        <input type="email" placeholder="someone@email.com" />
+                        <button class="btn btn-secondary" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-top">
+                <ul class="footer-links">
+                    <li><a href="#">Web Design</a></li><span>|</span>
+                    <li><a href="#">Web Development</a></li><span>|</span>
+                    <li><a href="#">App Development</a></li><span>|</span>
+                    <li><a href="#">Cloud Solutions</a></li><span>|</span>
+                    <li><a href="#">SEO Optimization</a></li><span>|</span>
+                    <li><a href="#">Networking Services</a></li>
+                </ul>
+            </div>
+            <hr style="color: #858282;">
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-3 col-md-5 col-12 ">
+                        <p class="copyright">&#169 2025 Rimsha. All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-12">
+                        <ul class="social-icons">
+                            <li><a class="twitter" href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="facebook" href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="linkedin" href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a class="instagram" href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Go To Top Button -->
+
+    <a href="#navbar" class="gototop" id="goToTopBtn"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+    <!-- JS Links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- Mixitup -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
+
+    <!-- fancybox -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.offcanvas .nav-link').forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    const offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('offcanvas'));
+                    if (offcanvas) {
+                        offcanvas.hide();
+                    }
+                    setTimeout(() => {
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }, 300);
+                });
+            });
+        });
+    </script>
+    <script>
+        window.scrollTo({
+            top: targetElement.offsetTop - 100,
+            behavior: 'smooth'
+        });
+    </script>
+
+    <script>
+        var goToTopBtn = document.getElementById("goToTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                goToTopBtn.style.display = "block";
+            } else {
+                goToTopBtn.style.display = "none";
+            }
+        };
+        goToTopBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <!-- Fancybox js -->
+    <script>
+        var containerEl = document.querySelector(".portfolio-item");
+        var mixer = mixitup(containerEl, {
+            animation: {
+                effects: "fade translateZ(-100px)",
+                effectsIn: "fade translateY(-100%)",
+                easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+            }
+        });
+        $("[data-fancybox]").fancybox({
+            loop: true,
+            hash: true,
+            transitionEffect: "slide",
+            clickContent: function (current, event) {
+                return current.type === "image" ? "next" : false;
+            }
+        });
+    </script>
+</body>
+
+</html>
