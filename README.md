@@ -30,6 +30,7 @@ Techvio is a sleek and professional landing page designed for companies offering
 
 - HTML5
 - CSS3
+- Tailwind CSS
 - JavaScript
 - Bootstrap
 
